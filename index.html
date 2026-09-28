@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yogesh Chavan Photography | Majlgaon, Beed</title>
+<meta name="description" content="Yogesh Chavan Photography — Wedding, Pre-Wedding, Candid, Maternity, Portrait and Traditional photography in Majlgaon, Beed.">
+<style>
+:root{--black:#08090a;--gold:#e9bb69;--cream:#f6f2e9;--muted:#bdbdbd;--line:#343434}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--black);color:#fff;line-height:1.55}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(5,6,7,.78);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:1px}
+.brand-mark{width:38px;height:30px;border:2px solid var(--gold);border-radius:8px;display:grid;place-items:center;color:var(--gold);font-weight:900}
+.brand small{display:block;color:var(--gold);font-size:9px;letter-spacing:4px;margin-top:2px}
+.links{display:flex;gap:27px;font-size:14px;color:#eee}
+.links a:hover{color:var(--gold)}
+.nav-btn{background:var(--gold);color:#111;padding:10px 22px;border-radius:24px;font-weight:700;font-size:13px}
+
+.hero{min-height:760px;padding-top:72px;display:grid;place-items:center;position:relative;background:
+radial-gradient(circle at 50% 35%,rgba(212,165,78,.12),transparent 28%),
+linear-gradient(135deg,#030303 0%,#101010 48%,#050505 100%)}
+
+.hero-inner{width:min(1160px,92%);display:grid;grid-template-columns:1fr 1.15fr 1fr;align-items:center;gap:20px}
+.hero-copy{padding-top:50px}
+.script{font-family:cursive;font-style:italic;font-size:44px;line-height:1;color:#fff}
+.hero-copy h1{font-family:Georgia,serif;font-size:52px;line-height:1.05;margin:12px 0}
+.hero-copy p{color:#ddd;font-size:18px}
+.center{text-align:center}
+.insta-profile-wrap{width:118px;height:118px;margin:0 auto 18px;padding:5px;border:2px solid var(--gold);border-radius:50%;background:rgba(0,0,0,.55);box-shadow:0 8px 35px rgba(0,0,0,.5)}
+.insta-profile{width:100%;height:100%;display:block;object-fit:cover;border-radius:50%}
+.logo-big{font-family:Georgia,serif;font-size:42px;letter-spacing:4px}
+.logo-sub{color:var(--gold);letter-spacing:7px;font-size:15px;margin-top:7px}
+.tagline{font-family:cursive;font-size:22px;margin:22px 0;color:#eee}
+.gold-line{height:2px;width:70px;background:var(--gold);margin:18px auto}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 23px;border-radius:28px;border:1px solid #fff;font-weight:700;font-size:14px}
+.btn.gold{background:var(--gold);color:#111;border-color:var(--gold)}
+.hero-right{display:flex;justify-content:flex-end}
+.camera-card{width:290px;height:250px;border-radius:28px;background:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.1)}
+
+section{padding:86px 0}
+.light{background:var(--cream);color:#171717}
+.section-title{text-align:center;margin-bottom:42px}
+.section-title h2{font:700 42px Georgia,serif}
+.section-title h2 span{color:#bd8c3e}
+.section-title p{color:#777;margin-top:7px}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.service{border:1px solid #4a4a4a;border-radius:13px;padding:26px 14px;text-align:center;background:#101112}
+.service .ico{font-size:31px;color:var(--gold);margin-bottom:12px}
+.service h3{font-size:15px}
+.service p{font-size:12px;color:#aaa;margin-top:5px}
+
+.gallery{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.gallery .tile{height:210px;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#222,#777)}
+.gallery .tile img{width:100%;height:105%;object-fit:cover}
+.gallery-note{text-align:center;margin-top:22px}
+.gallery-note a{border:1px solid #222;padding:10px 18px;border-radius:22px;font-size:13px}
+
+.about{background:linear-gradient(90deg,#090a0b,#151515)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-photo{min-height:350px;border-radius:22px;background:#050505;border:1px solid #333;display:flex;align-items:center;justify-content:center;overflow:hidden}.about-photo img{width:100%;height:100%;object-fit:contain;padding:28px;display:block}
+.about-text h2{font:700 42px Georgia,serif;margin-bottom:15px}
+.about-text h2 span{color:var(--gold)}
+.about-text p{color:#c5c5c5;margin-bottom:13px}
+.signature{font-family:cursive;font-size:25px;color:#fff;margin-top:22px}
+
+.contact{background:var(--black)}
+.contact-box{border:1px solid #343434;border-radius:24px;padding:48px;text-align:center;background:linear-gradient(145deg,#161718,#0b0c0d)}
+.contact-box h2{font:700 42px Georgia,serif}
+.contact-box p{color:#aaa;margin:10px 0 25px}
+.contact-info{display:flex;justify-content:center;gap:30px;flex-wrap:wrap;color:#ddd;margin:20px 0}
+.contact-info strong{color:var(--gold)}
+footer{padding:30px 0;border-top:1px solid #282828;text-align:center;color:#888;font-size:12px}
+footer span{color:var(--gold)}
+
+@media(max-width:850px){
+.links{display:none}.hero{min-height:760px}.hero-inner{grid-template-columns:1fr;text-align:center;padding:70px 0}.hero-copy{display:none}.hero-right{display:none}
+.services{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.about-photo{min-height:280px}
+.logo-big{font-size:32px}
+}
+@media(max-width:520px){.services{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery .tile{height:160px}.contact-box{padding:32px 18px}}
+</style>
+</head>
+<body>
+
+<nav>
+ <div class="container nav">
+  <a href="#" class="brand"><span class="brand-mark">YC</span><span>YOGESH CHAVAN<small>PHOTOGRAPHY</small></span></a>
+  <div class="links">
+   <a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#wedding">Wedding</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+  <a class="nav-btn" href="https://wa.me/919552124546" target="_blank">Book Now</a>
+ </div>
+</nav>
+
+<header id="home" class="hero">
+ <div class="hero-inner">
+  <div class="hero-copy">
+   <div class="script">Every Moment</div><h1>Has a Story</h1><p>We Capture It...</p><div class="gold-line" style="margin-left:0"></div>
+  </div>
+  <div class="center">
+   <div class="insta-profile-wrap">
+    <img class="insta-profile" src="images/logo.jpeg" alt="Yogesh Chavan Photography Instagram profile">
+   </div>
+   <div class="logo-big">YOGESH CHAVAN</div><div class="logo-sub">PHOTOGRAPHY</div>
+   <div class="tagline">Capturing Your Special Moments</div><div class="gold-line"></div>
+   <div class="actions">
+    <a class="btn gold" href="tel:+919552124546">📅 Book Now</a>
+    <a class="btn"
+   href="https://wa.me/919552124546?text=Hello%20Yogesh%20Chavan%20Photography%20%F0%9F%91%8B%0AI%20would%20like%20to%20enquire%20about%20your%20photography%20services.%0APlease%20share%20your%20packages%2C%20pricing%20and%20availability.%20Thank%20you!"
+   target="_blank">
+   💬 WhatsApp
+</a>
+   </div>
+   <div style="margin-top:20px;color:#ddd">📞 9552124546 &nbsp; | &nbsp; 📍 Majlgaon, Beed</div>
+  </div>
+  <div class="hero-right"><div class="camera-card"></div></div>
+ </div>
+</header>
+
+<section id="services">
+ <div class="container">
+  <div class="section-title"><h2>Our <span>Services</span></h2><p>From weddings to portraits, we capture every emotion with perfection.</p></div>
+  <div class="services">
+   <div class="service"><div class="ico">💍</div><h3>Wedding Photography</h3><p>Complete wedding memories.</p></div>
+   <div class="service"><div class="ico">💑</div><h3>Pre-Wedding Photography</h3><p>Creative couple stories.</p></div>
+   <div class="service"><div class="ico">🎂</div><h3>Birthday & Events</h3><p>Every celebration captured.</p></div>
+   <div class="service"><div class="ico">👶</div><h3>Baby Photography</h3><p>Sweet little memories.</p></div>
+   <div class="service"><div class="ico">🖼️</div><h3>Portrait Photography</h3><p>Beautiful personal portraits.</p></div>
+   <div class="service"><div class="ico">🪪</div><h3>Passport & ID Photos</h3><p>Quick professional photos.</p></div>
+   <div class="service"><div class="ico">🎬</div><h3>Photo & Video Editing</h3><p>Polished final memories.</p></div>
+   <div class="service"><div class="ico">📖</div><h3>Photo Album Designing</h3><p>Albums made to cherish.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="gallery" class="light">
+ <div class="container">
+  <div class="section-title"><h2>Our <span>Gallery</span></h2><p>A small glimpse of our work, a lifetime of memories.</p></div>
+  <div class="gallery">
+        <div class="tile"><img src="images/p1.jpeg"></div>
+        <div class="tile"><img src="images/p2.jpeg"></div>
+        <div class="tile"><img src="images/p3.jpeg"></div>
+        <div class="tile"><img src="images/p4.jpeg"></div>
+        <div class="tile"><img src="images/p5.jpeg"></div>
+        <div class="tile"><img src="images/p6.jpeg"></div>
+        
+  </div>
+  <div class="gallery-note"><a href="https://www.instagram.com/yogesh.chavan_photography/" target="_blank">View More →</a></div>
+ </div>
+</section>
+
+<section id="about" class="about">
+ <div class="container about-grid">
+  <div class="about-photo"><img src="images/logo.jpeg" alt="Yogesh Chavan Photography logo"></div>
+  <div class="about-text">
+   <h2>About <span>Yogesh Chavan</span></h2>
+   <p>Hello! I'm Yogesh Chavan, a passionate photographer from Majlgaon, Beed. Photography for me is not just a profession, it's a way to express emotions, stories and real moments.</p>
+   <p>With a creative eye, I strive to create photographs and memories that you can cherish forever.</p>
+   <div class="signature">Yogesh Chavan</div><div style="color:#aaa">Photographer</div>
+  </div>
+ </div>
+</section>
+
+<section id="wedding" class="light">
+ <div class="container">
+  <div class="section-title"><h2>Wedding <span>Stories</span></h2><p>Natural emotions, beautiful details and unforgettable celebrations.</p></div>
+  <div class="contact-box" style="background:#fff;border-color:#ddd;color:#171717">
+   <h2 style="font-family:Georgia,serif">Your Big Day Deserves Beautiful Memories.</h2>
+   <p>Ask about wedding, pre-wedding and post-wedding photography packages.</p>
+   <a class="btn gold" href="https://wa.me/919552124546?text=Hi%20Yogesh%20Chavan%20Photography%2C%20I%20want%20to%20know%20about%20wedding%20photography%20packages." target="_blank">Enquire on WhatsApp</a>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="container">
+  <div class="contact-box">
+   <h2>Book Your Date</h2><p>Let's capture your special moments.</p>
+   <div class="contact-info"><div>📞 <strong>Call / WhatsApp</strong><br>9552124546</div><div>📍 <strong>Location</strong><br>Majlgaon, Beed</div></div>
+   <div class="actions">
+    <a class="btn gold" href="tel:+919552124546">Call Now</a>
+    <a class="btn"
+   href="https://wa.me/919552124546?text=Hello%20Yogesh%20Chavan%20Photography%20%F0%9F%91%8B%0AI%20would%20like%20to%20enquire%20about%20your%20photography%20services.%0APlease%20share%20your%20packages%2C%20pricing%20and%20availability.%20Thank%20you!"
+   target="_blank">
+   💬 WhatsApp
+</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<footer>© 2026 <span>Yogesh Chavan Photography</span> • Majlgaon, Beed • All Rights Reserved</footer>
+</body>
+</html>
